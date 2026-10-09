@@ -1,0 +1,8 @@
+url: https://danielinteractive.github.io/zurich2026/
+template:
+  bootstrap: 5
+
+reference:
+  - title: Functions
+    contents:
+      - hello
