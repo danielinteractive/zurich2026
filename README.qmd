@@ -22,7 +22,7 @@ knitr::opts_chunk$set(
 [![R-CMD-check](https://github.com/danielinteractive/zurich2026/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/danielinteractive/zurich2026/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
-The goal of zurich2026 is to ...
+This package was used to illustrate the Zurich workshop in October 2026.
 
 ## Installation
 
@@ -40,24 +40,5 @@ This is a basic example which shows you how to solve a common problem:
 ```{r}
 #| label: example
 library(zurich2026)
-## basic example code
+hello("Ben")
 ```
-
-What is special about using `README.qmd` instead of just `README.md`? You can include R chunks like so:
-
-```{r}
-#| label: cars
-summary(cars)
-```
-
-You'll still need to render `README.qmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this.
-
-You can also embed plots, for example:
-
-```{r}
-#| label: pressure
-#| echo: false
-plot(pressure)
-```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.
