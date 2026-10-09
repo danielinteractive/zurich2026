@@ -6,3 +6,4 @@ reference:
   - title: Functions
     contents:
       - hello
+      - goodbye
